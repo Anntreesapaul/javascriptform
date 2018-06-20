@@ -1,0 +1,53 @@
+ <html>
+<head>
+<script typ="text/javascript" src="signup.js" ></script>
+</head>
+<body>
+<div class="container">
+<div class="content">
+ <center>
+<form name="form1"  method="post" action="success.html">
+ <fieldset>
+
+<h1>Sign Up</h1>
+   <table border='0'>
+ <tr>
+  <td><LABEL for="name">Name:<sup style="color:#F00">*</sup> </LABEL></td>
+         <td><INPUT type="text" id="name" minlength="3"></td><td width="200px"><i style="color:red;" id="pointfn"></i></td>
+ </tr>
+<tr>
+  <td><LABEL for="email">Email:<sup style="color:red;">*</sup> </LABEL></td>
+  <td><INPUT type="text" id="email"></td><td width="200px"><i style="color:red;" id="pointemail"></i></td>
+ </tr>
+
+ <tr>
+  <td><LABEL for="password" style="text-align:left;">Password:<sup style="color:#F00">*</sup> </LABEL></td>
+  <td><INPUT type="password" id="password"></td><td width="200px"><i style="color:red;" id="pointadrs"></i>   
+  </td>
+  
+
+ </tr>
+ <tr>
+  <td></td><td><br/><INPUT type="submit" onClick="return validateForm()" value="Send">
+  </td>
+ </tr>
+
+
+ 
+ <tr>
+  <td></td><td style="font-size:12px;text-align:right;"><br/><i style="color:red;font-size:12px;align:right;" >* - Mandatory</i></td>
+ </tr>
+
+ <tr>
+      <td></td>
+      <td></td>
+      <td><a href="index.html">LogIn</a></td>
+</tr>
+    </table>
+ </FORM></center>
+ </div>
+</div>
+
+
+</body>
+</html>
